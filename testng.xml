@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/naveen/Desktop/develop/KAplan">
+        <classes>
+            <class name="PAges.LoginPAge">
+                <methods>
+                    <include name="openLoginPage"/>
+                    <include name="login"/>
+                </methods>
+            </class>
+            <class name="Test.Test_Steps">
+                <methods>
+                    <include name="navigateToLoginPage"/>
+                    <include name="loginwithcredentials"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
